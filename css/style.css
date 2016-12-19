@@ -1,92 +1,85 @@
 
-body
-{
-    font-size:       62.5%;
-    margin:          0;
-    padding:         0;
+body {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
     background-color: #000;
-    font-family:     'lucida grande', arial, tahoma, sans-serif;
+    font-family: 'lucida grande', arial, tahoma, sans-serif;
 }
 
-#container
-{
-    margin:          0 auto;
-    padding-top:20px;
-    width:           1024px;
-    position:        relative;
-    background-color:  #333;
+#container {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1024px;
+    position: relative;
+    background-color: #333;
 }
 
-#header
-{
-    margin:          0 auto;
-    width:           1000px;
-    height:          40px;
+#header {
+    margin: 0 auto;
+    width: 1000px;
+    height: 40px;
 }
 
-.headtitle
-{
-    position:        relative;
+.headtitle {
+    position: relative;
     font-family: Times, serif;
-    font-size:       25px;
-    color:           #FFF;
-    top:             5px;
-    left:            12px;
+    font-size: 25px;
+    color: #FFF;
+    top: 5px;
+    left: 12px;
 }
 
-
-#content
-{
-    min-height:      390px;
-    width:           1000px;
-    margin:          0 auto;
-    background-color:#FDFDFD;
+#content {
+    min-height: 390px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #FDFDFD;
 }
 
-#insidecontent
-{
-    float:           left;
-    padding-left:    25px;
-    padding-right:    25px;
-    width:           auto;
-}
-
-#insidecontent p
-{
-    margin:          0;
-    color:           #767676;
-    font-family: Tahoma, serif;
-    font-size:       1.2em;
-    line-height:     170%;
-}
-
-
-
-
-h1
-{
-    margin:          0;
-    font-weight:     normal;
-    color:           #6A7919;
-    font-size:       1.5em;
+h1 {
+    margin: 0 0 0 24px;
+    font-weight: normal;
+    color: #6A7919;
+    font-size: 1.5em;
     font-family: Times, serif;
 }
 
-
-#footer
-{
-    margin:          0 auto;
-    width:           1001px;
-    height:          39px;
-
+footer {
+    margin: 0 auto;
+    width: 1024px;
+    height: 39px;
+    background-color: #333;
 }
 
-#footer span
-{
-    display:         block;
-    position:        relative;
+footer span {
+    display: block;
+    position: relative;
     font-family: Tahoma, serif;
-    font-size:       1.2em;
-    padding:         10px;
-    color:           #767676;
+    font-size: 1.2em;
+    padding: 10px;
+    color: #767676;
+}
+
+.rTable {
+    margin-left: 12px;
+    display: table;
+    width: 98%;
+}
+
+.rTableRow {
+
+    display: table-row;
+}
+
+.rTableCell, .rTableHead {
+    display: table-cell;
+    padding: 3px 10px;
+    border: 1px solid #626262;
+}
+
+.rTableHead {
+
+    background-color: #ddd;
+    font-weight: bold;
 }

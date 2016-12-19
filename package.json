@@ -1,3 +1,12 @@
-"scripts" : {
-"build": "webpack - config.js -p"
+{
+  "scripts" : {
+    "build": "webpack - config.js -p"
+  },
+  "dependencies": {
+    "googlemaps": "^1.11.1",
+    "typescript": "^2.0.10"
+  },
+  "devDependencies": {
+    "tslint-loader": "^3.2.0"
+  }
 }
